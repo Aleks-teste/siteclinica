@@ -8,100 +8,121 @@
 /* Corpo e fonte padrão */
 body {
     font-family: Arial, sans-serif;
-    background-color: #a7dbef;
+    background-color: #b0e0d5; /* Tom claro de verde */
     color: #333;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 /* Cabeçalho */
 header {
-    background-color: #6bbccc;
+    background-color: #6bbccc; /* Tom mais claro de azul */
+    width: 100%;
     padding: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    text-align: center;
 }
 
-.logo-title {
+.header-content {
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 10px;
 }
 
-header img {
-    width: 50px; /* Logo */
+header .logo {
+    width: 70px;
     height: auto;
 }
 
 header h1 {
-    font-size: 2em;
+    font-size: 2.5em;
     color: #000;
+    margin-right: 100px;
 }
 
-nav {
+.nav-buttons {
     display: flex;
+    justify-content: center;
+    margin-top: 10px;
     gap: 10px;
 }
 
-nav a, .alerta {
-    background-color: #d94a4a;
+.nav-buttons button {
+    background-color: #46827f; /* Verde escuro */
     color: #fff;
-    padding: 8px 12px;
-    text-decoration: none;
+    padding: 10px 15px;
+    border: none;
     border-radius: 5px;
+    cursor: pointer;
 }
 
-nav a {
-    background-color: #5b9da6;
+.nav-buttons .alerta {
+    background-color: #d94a4a; /* Vermelho */
 }
 
 /* Seção principal */
 main {
     display: flex;
     justify-content: center;
-    align-items: flex-start;
-    gap: 20px;
     padding: 20px;
-    max-width: 800px;
-    margin: 0 auto;
+    max-width: 1200px;
+    width: 100%;
+}
+
+.main-content {
+    display: flex;
+    align-items: center;
+    gap: 20px;
 }
 
 .image-section img {
-    width: 300px;
+    width: 400px;
     height: auto;
     border-radius: 5px;
 }
 
-.content-section {
-    max-width: 400px;
+.text-section {
+    max-width: 500px;
     text-align: left;
 }
 
 /* Rodapé */
 footer {
     background-color: #6bbccc;
+    width: 100%;
     padding: 20px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.payment-section, .contact-section {
     text-align: center;
 }
 
-.payment-section img {
-    width: 250px; /* Logotipos de pagamento */
-    height: auto;
+.payment-section, .contact-section {
+    margin-top: 20px;
 }
 
-.contact-icons button {
-    background-color: #34af23;
+.payment-section p, .contact-section p {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.payment-logos img {
+    width: 50px;
+    margin: 0 10px;
+}
+
+.contact-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.contact-buttons button {
+    background-color: #46827f;
     color: #fff;
-    border: none;
     padding: 10px 15px;
-    margin: 5px;
+    border: none;
     border-radius: 5px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
     cursor: pointer;
 }
