@@ -24,7 +24,7 @@
     <!-- Seção principal -->
     <main>
         <div class="image-section">
-            <img src="imagem2.jpg" alt="Imagem principal"> <!-- imagem2: Imagem do centro -->
+            <img src="imagem/imagem central pg inicial enfermeiro.jpg" alt="Imagem principal"> <!-- imagem2: Imagem do centro -->
         </div>
         <div class="content-section">
             <p><strong>Bem-vindo à TechSaúde!</strong></p>
