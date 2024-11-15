@@ -10,8 +10,10 @@
 
     <!-- Cabeçalho -->
     <header>
-        <img src="imagem/logo TEC SAUDE.jpg" alt="Logo da TechSaúde"> <!-- imagem1: Logo -->
-        <h1>TechSaúde</h1>
+        <div class="logo-title">
+            <img src="imagem1.jpg" alt="Logo da TechSaúde"> <!-- imagem1: Logo -->
+            <h1>TechSaúde</h1>
+        </div>
         <nav>
             <button class="alerta">ALERTA SAÚDE</button>
             <a href="#">NOSSOS SERVIÇOS</a>
@@ -24,7 +26,7 @@
     <!-- Seção principal -->
     <main>
         <div class="image-section">
-            <img src="imagem/imagem central pg inicial enfermeiro.jpg" alt="Imagem principal"> <!-- imagem2: Imagem do centro -->
+            <img src="imagem2.jpg" alt="Imagem principal"> <!-- imagem2: Imagem do centro -->
         </div>
         <div class="content-section">
             <p><strong>Bem-vindo à TechSaúde!</strong></p>
