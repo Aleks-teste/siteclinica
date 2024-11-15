@@ -11,7 +11,7 @@
     <!-- Cabeçalho -->
     <header>
         <div class="header-content">
-            <img src="imagem1.jpg" alt="Logo da TechSaúde" class="logo"> <!-- imagem1: Logo -->
+            <img src="imagem/logosite.jpg" alt="Logo da TechSaúde" class="logo">
             <h1>TechSaúde</h1>
         </div>
         <nav class="nav-buttons">
