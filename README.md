@@ -10,7 +10,7 @@
 
     <!-- Cabeçalho -->
     <header>
-        <img src="imagem1.jpg" alt="Logo da TechSaúde"> <!-- imagem1: Logo -->
+        <img src="imagem/logo TEC SAUDE.jpg" alt="Logo da TechSaúde"> <!-- imagem1: Logo -->
         <h1>TechSaúde</h1>
         <nav>
             <button class="alerta">ALERTA SAÚDE</button>
