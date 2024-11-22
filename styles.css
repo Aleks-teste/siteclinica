@@ -13,7 +13,7 @@
     top: 0;
     left: 0;
     width: 100%;
-    background: #0CB0D6;
+
     backdrop-filter: blur(3px);
     padding: 0.5rem 8%;
     display: flex;
